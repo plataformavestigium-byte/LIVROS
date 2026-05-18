@@ -1,0 +1,36 @@
+==============================================
+VISUALIZADOR VESTIGIUM — INSTRUÇÕES DE USO
+==============================================
+
+ARQUIVOS NECESSÁRIOS:
+  1. index.html       → Página principal do visualizador
+  2. pages_data.js    → Dados das páginas do livro (gerado a partir do PDF)
+
+COMO HOSPEDAR:
+  1. Faça upload dos 2 arquivos para o seu servidor no domínio:
+     https://vestigiumplataforma.getmembox.com/
+
+  2. Coloque ambos na mesma pasta (ex: /livro/ ou raiz /)
+
+  3. Acesse pelo navegador. O livro só abrirá se o domínio for:
+     vestigiumplataforma.getmembox.com
+
+PROTEÇÕES ATIVAS:
+  ✓ Bloqueio por domínio (não abre em outro site)
+  ✓ Clique direito desabilitado
+  ✓ Ctrl+S / Ctrl+P / Ctrl+U bloqueados
+  ✓ F12 / DevTools bloqueado
+  ✓ Arrastar imagens bloqueado
+  ✓ Detecção de DevTools (borra imagem)
+  ✓ Impressão bloqueada via CSS
+  ✓ Marca d'água em todas as páginas
+  ✓ Seleção de texto desabilitada
+
+PARA TESTES LOCAIS:
+  Abra o index.html com um servidor local (ex: VS Code Live Server)
+  O domínio "localhost" está liberado para testes.
+
+ATENÇÃO:
+  Nenhuma proteção é 100% inviolável. A combinação de todas as
+  camadas acima torna o acesso não autorizado muito mais difícil.
+==============================================
